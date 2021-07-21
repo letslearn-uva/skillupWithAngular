@@ -8,11 +8,11 @@
 
 2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) 
 
-    `https://github.com/letslearn-uva/Basics_angular.git`
+    ` git clone https://github.com/letslearn-uva/Basics_angular.git`
     
 3. CD to the folder
 
-    `cd angular-essential-training`
+    `cd Basics_angular`
 
     and then fetch all of the remote branches for the repository
     
