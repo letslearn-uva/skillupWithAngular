@@ -8,7 +8,7 @@
 
 2. Clone this repository into your local machine using the terminal 
 
-    `git clone https://github.com/coursefiles/angular-essential-training.git`
+    `git clone https://github.com/letslearn-uva/skillupWithAngular.git`
     
 3. CD to the folder
 
