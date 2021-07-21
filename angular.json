@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "63f94e16-1eaf-43d6-85d7-c64e7a476c13"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "skillupWithAngular": {
+    "skillupwithAngular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/skillupWithAngular",
+            "outputPath": "dist/skillupwithAngular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "skillupWithAngular:build:production"
+              "browserTarget": "skillupwithAngular:build:production"
             },
             "development": {
-              "browserTarget": "skillupWithAngular:build:development"
+              "browserTarget": "skillupwithAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "skillupWithAngular:build"
+            "browserTarget": "skillupwithAngular:build"
           }
         },
         "test": {
@@ -102,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "skillupWithAngular"
+  "defaultProject": "skillupwithAngular"
 }
